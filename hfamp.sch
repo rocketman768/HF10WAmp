@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 07 Dec 2013 10:31:43 AM CST
+EESchema Schematic File Version 2  date Sat 07 Dec 2013 11:36:14 AM CST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -456,7 +456,7 @@ L MOSFET_N Q2
 U 1 1 52A34836
 P 8500 2450
 F 0 "Q2" H 8510 2620 60  0000 R CNN
-F 1 "MOSFET_N" H 8510 2300 60  0000 R CNN
+F 1 "IRF510" H 8510 2300 60  0000 R CNN
 	1    8500 2450
 	1    0    0    -1  
 $EndComp
