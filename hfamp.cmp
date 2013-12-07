@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Thu 05 Dec 2013 09:50:53 PM CST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 07 Dec 2013 04:32:08 PM CST
 
 BeginCmp
 TimeStamp = /52A10E79;
@@ -22,10 +22,129 @@ IdModule  = C1V5;
 EndCmp
 
 BeginCmp
+TimeStamp = /52A32B77;
+Reference = C4;
+ValeurCmp = .01u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A32BC8;
+Reference = C5;
+ValeurCmp = 10u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A3332B;
+Reference = C6;
+ValeurCmp = .33u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A33332;
+Reference = C7;
+ValeurCmp = .1u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A347E8;
+Reference = C8;
+ValeurCmp = .01u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A34819;
+Reference = C9;
+ValeurCmp = .01u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A348DF;
+Reference = C10;
+ValeurCmp = .1u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A34884;
+Reference = C11;
+ValeurCmp = .01u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A348F8;
+Reference = C12;
+ValeurCmp = .1u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A3491E;
+Reference = C13;
+ValeurCmp = .1u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A34941;
+Reference = C14;
+ValeurCmp = 110p;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A3495A;
+Reference = C15;
+ValeurCmp = 110p;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
 TimeStamp = /52A10ECC;
 Reference = D1;
 ValeurCmp = LED;
 IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A32BA4;
+Reference = D2;
+ValeurCmp = BAT62-03W;
+IdModule  = SOD323;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A32BAC;
+Reference = D3;
+ValeurCmp = BAT62-03W;
+IdModule  = SOD323;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A330BE;
+Reference = D4;
+ValeurCmp = 1N4148W;
+IdModule  = SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A34900;
+Reference = D5;
+ValeurCmp = 1N4148W;
+IdModule  = SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A34909;
+Reference = D6;
+ValeurCmp = 1N4148W;
+IdModule  = SOD123;
 EndCmp
 
 BeginCmp
@@ -43,6 +162,27 @@ IdModule  = WE-SUCKW;
 EndCmp
 
 BeginCmp
+TimeStamp = /52A348C2;
+Reference = L2;
+ValeurCmp = RFC;
+IdModule  = TOROID-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A348C9;
+Reference = L3;
+ValeurCmp = RFC;
+IdModule  = TOROID-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A3494B;
+Reference = L4;
+ValeurCmp = .53u;
+IdModule  = IND-AIRCORE-10x30;
+EndCmp
+
+BeginCmp
 TimeStamp = /52A10E9E;
 Reference = P1;
 ValeurCmp = CONN_2;
@@ -50,10 +190,122 @@ IdModule  = JST-2-SMD;
 EndCmp
 
 BeginCmp
+TimeStamp = /52A34C72;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = BNC-PTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A34C7C;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = BNC-PTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A32BED;
+Reference = Q1;
+ValeurCmp = MMBT6427;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A34836;
+Reference = Q2;
+ValeurCmp = IRF510;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
 TimeStamp = /52A10EE4;
 Reference = R1;
 ValeurCmp = 470;
 IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A32B88;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A347F1;
+Reference = R3;
+ValeurCmp = 330;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A347F8;
+Reference = R4;
+ValeurCmp = 18;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A347FD;
+Reference = R5;
+ValeurCmp = 330;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A34802;
+Reference = R6;
+ValeurCmp = 51;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A34875;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A3487D;
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A3481F;
+Reference = R9;
+ValeurCmp = 10;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A33032;
+Reference = REL1;
+ValeurCmp = RELAY_DPDT;
+IdModule  = REL-FTR-F1C;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A33364;
+Reference = RV1;
+ValeurCmp = 5k;
+IdModule  = PVG3G502C01R00;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A3492E;
+Reference = T1;
+ValeurCmp = 1:2.6;
+IdModule  = TOROID-XFMR;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A33305;
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = DPAK2;
 EndCmp
 
 EndListe
