@@ -1,0 +1,90 @@
+# EESchema Netlist Version 1.1 created  Thu 05 Dec 2013 09:58:31 PM CST
+(
+ ( /52A10F16 $noname  L1 RFC {Lib=INDUCTOR}
+  (    1 N-000002 )
+  (    2 ? )
+ )
+ ( /52A10EF2 $noname  C2 .1u {Lib=CP1}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( /52A10EED $noname  C3 10u {Lib=CP1}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( /52A10EE4 $noname  R1 470 {Lib=R}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /52A10ECC $noname  D1 LED {Lib=LED}
+  (    1 N-000002 )
+  (    2 N-000003 )
+ )
+ ( /52A10E9E $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 N-000004 )
+  (    2 N-000002 )
+ )
+ ( /52A10E79 $noname  C1 .1u {Lib=CP1}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /52A10DFA $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 N-000004 )
+  (    2 GND )
+  (    3 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 2 "" ""
+ L1 1
+ C2 1
+ C3 1
+ P1 2
+ D1 1
+Net 3 "" ""
+ R1 1
+ D1 2
+Net 4 "" ""
+ P1 1
+ C1 1
+ K1 1
+Net 5 "GND" "GND"
+ C2 2
+ C3 2
+ K1 2
+ C1 2
+ R1 2
+}
+#End

@@ -1,0 +1,59 @@
+Cmp-Mod V01 Genere par PcbNew le Thu 05 Dec 2013 09:50:53 PM CST
+
+BeginCmp
+TimeStamp = /52A10E79;
+Reference = C1;
+ValeurCmp = .1u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A10EF2;
+Reference = C2;
+ValeurCmp = .1u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A10EED;
+Reference = C3;
+ValeurCmp = 10u;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A10ECC;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A10DFA;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = JACK_ALIM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A10F16;
+Reference = L1;
+ValeurCmp = RFC;
+IdModule  = WE-SUCKW;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A10E9E;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = JST-2-SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A10EE4;
+Reference = R1;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+EndListe
