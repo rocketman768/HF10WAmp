@@ -1,4 +1,4 @@
-update=Sat 07 Dec 2013 08:52:18 AM CST
+update=Sat 07 Dec 2013 10:31:53 AM CST
 version=1
 last_client=kicad
 [cvpcb]
@@ -36,7 +36,7 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
-LibName12=/home/philip/Circuits/hfamp/modules/myparts
+LibName12=modules/myparts
 [eeschema]
 version=1
 LibDir=
