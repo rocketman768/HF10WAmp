@@ -12,3 +12,9 @@ and adapt this work as long as you give appropriate attribution, and distribute
 any contributions under the same license. See the `COPYING` and `COPYRIGHT.*`
 files for more detail.
 
+## Opening the Project
+
+This is a [KiCad](http://www.kicad-pcb.org/display/KICAD/Download) project.
+KiCad is a very nice free open-source suite of tools for drawing schematics
+and laying out PCBs. Just download it and open `hfamp.pro` to view the project.
+
