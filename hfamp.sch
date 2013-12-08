@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 07 Dec 2013 04:25:28 PM CST
+EESchema Schematic File Version 2  date Sat 07 Dec 2013 06:45:23 PM CST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "HF Amp: 0.5W to 10W"
-Date "7 dec 2013"
+Date "8 dec 2013"
 Rev "1.2"
 Comp ""
 Comment1 ""
@@ -45,10 +45,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4550 3600 2    60   Input ~ 0
-vout
-Text GLabel 3700 3600 2    60   Input ~ 0
-vin
+Connection ~ 7600 2450
+Connection ~ 7350 2450
+Connection ~ 3150 3150
+Wire Wire Line
+	3050 3150 3300 3150
+Wire Wire Line
+	3050 3150 3050 2650
+Wire Wire Line
+	3050 2650 2900 2650
+Wire Wire Line
+	3150 2750 3300 2750
 Wire Wire Line
 	4450 3600 4550 3600
 Wire Wire Line
@@ -95,8 +102,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 2750 4350 2750
 Wire Wire Line
-	3300 3250 3300 3050
-Wire Wire Line
 	3000 3050 3000 3250
 Wire Wire Line
 	1250 2100 1250 1200
@@ -136,12 +141,6 @@ Wire Wire Line
 	1300 1100 2100 1100
 Wire Wire Line
 	2200 2850 2500 2850
-Wire Wire Line
-	2900 2650 3300 2650
-Wire Wire Line
-	3300 2650 3300 2750
-Wire Wire Line
-	3300 3050 3200 3050
 Wire Wire Line
 	4200 3050 4350 3050
 Wire Wire Line
@@ -189,6 +188,14 @@ Wire Wire Line
 	3600 3800 3600 4050
 Wire Wire Line
 	3600 3600 3700 3600
+Wire Wire Line
+	3300 2750 3300 2550
+Wire Wire Line
+	3300 3150 3300 3050
+Text GLabel 4550 3600 2    60   Input ~ 0
+vout
+Text GLabel 3700 3600 2    60   Input ~ 0
+vin
 $Comp
 L CONN_2 P3
 U 1 1 52A34C7C
@@ -623,20 +630,20 @@ vout
 $Comp
 L DIODE D4
 U 1 1 52A330BE
-P 3200 2850
-F 0 "D4" H 3200 2950 40  0000 C CNN
-F 1 "1N4148W" H 3200 2750 40  0000 C CNN
-	1    3200 2850
-	0    1    1    0   
+P 3150 2950
+F 0 "D4" H 3150 3050 40  0000 C CNN
+F 1 "1N4148W" H 3150 2850 40  0000 C CNN
+	1    3150 2950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +5V #PWR018
 U 1 1 52A330A3
-P 3300 3250
-F 0 "#PWR018" H 3300 3340 20  0001 C CNN
-F 1 "+5V" H 3300 3340 30  0000 C CNN
-	1    3300 3250
-	-1   0    0    1   
+P 3300 2550
+F 0 "#PWR018" H 3300 2640 20  0001 C CNN
+F 1 "+5V" H 3300 2640 30  0000 C CNN
+	1    3300 2550
+	1    0    0    -1  
 $EndComp
 $Comp
 L RELAY_DPDT REL1
