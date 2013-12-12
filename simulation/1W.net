@@ -1,0 +1,51 @@
+# Simplest-possible 1W IRF510 amp
+
+.model IRF510 NMOS KP=.124 VTO=2.7 CGSO=1.72132e-06 CGDO=5.99235e-11
+
+Vdd (vdd 0) DC 12
+
+# Input source 2Vp 3MHz
+Vin (vin 0) AC 5 sin(0 5 3e6)
+Rvin (vin 1) 50
+
+# Input load
+Rlin (1 0) 50
+
+# Input coupling
+C1 (1 g) 0.1u
+
+# Gate bias
+Rbias (g 2) 1k
+Vbias (2 0) DC 4
+
+# The workhorse
+M1 (d g 0 0) IRF510
+
+# Decoupling RFC
+L1 (vdd d) 15u
+
+# Output
+
+# - option 1: no filtering
+#C2 (d out) 0.1u
+#Rl (out 0) 50
+
+# - option 2: lowpass filter f=3 MHz, Q=3, BW=1MHz
+#   (http://www.vk2zay.net/calculators/piMatchingNetwork.php)
+
+C2 (d fin) 0.1u
+Cfiltin (fin 0) 3.183n
+Lfilt (fin out) 1.592u
+Cfiltout (out 0) 3.183n
+Rl (out 0) 50
+
+# Analysis=====================================================================
+#.print dc v(g) i(m1)
+#.dc
+#
+#.print ac v(g) v(out)
+#.ac 3e6
+
+.print tran v(g) v(d) v(out)
+.tran 10000n 11000n 3n > /tmp/1W.txt
+
